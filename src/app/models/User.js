@@ -8,7 +8,7 @@ const User = new Schema({
     password: {type: String, default: ''},
     name: {type: String, default: ''},
     avatar_link: {type: String, default: ''},
-    number: {type: String, slug: 'name', unique: true}
+    phone: {type: String, slug: 'name', unique: true}
 }, 
 {timestamps: true});
 
